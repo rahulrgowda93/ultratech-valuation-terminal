@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ULTRACEMCO · FCFF Valuation · Equity Research</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════ NAV BAR ═══════════════════════════ -->
+<nav class="nav">
+  <div class="nav-left">
+    <div class="nav-brand">
+      <span class="brand-dot"></span>
+      <span class="brand-label">EQ RESEARCH</span>
+    </div>
+    <div class="nav-divider"></div>
+    <div class="nav-ticker">
+      <span class="ticker-code">ULTRACEMCO</span>
+      <span class="ticker-price" id="nav-price">₹10,737</span>
+      <span class="ticker-delta neg">▼ 2.3%</span>
+    </div>
+  </div>
+  <div class="nav-links">
+    <a href="index.html" class="nav-link active">HOME</a>
+    <a href="terminal.html" class="nav-link">TERMINAL</a>
+    <a href="report.pdf" target="_blank" class="nav-link">REPORT</a>
+  </div>
+  <div class="nav-meta">
+    <span class="live-badge"><span class="dot"></span>NSE · TAPMI · MAR 2026</span>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════ TICKER TAPE ═══════════════════════════ -->
+<div class="ticker-tape">
+  <div class="tape-track">
+    <span class="tape-item">ULTRACEMCO <span class="pos">₹10,737</span></span>
+    <span class="tape-sep">·</span>
+    <span class="tape-item">IV BASE CASE <span class="pos">₹11,842</span></span>
+    <span class="tape-sep">·</span>
+    <span class="tape-item">UPSIDE <span class="pos">+10.3%</span></span>
+    <span class="tape-sep">·</span>
+    <span class="tape-item">WACC <span class="neutral">11.74%</span></span>
+    <span class="tape-sep">·</span>
+    <span class="tape-item">TERMINAL GROWTH <span class="neutral">5.5%</span></span>
+    <span class="tape-sep">·</span>
+    <span class="tape-item">TV WEIGHT <span class="warn">88.2%</span></span>
+    <span class="tape-sep">·</span>
+    <span class="tape-item">ROIC <span class="pos">14.2%</span></span>
+    <span class="tape-sep">·</span>
+    <span class="tape-item">EV <span class="pos">₹4,88,884 Mn</span></span>
+    <span class="tape-sep">·</span>
+    <span class="tape-item">NET DEBT/EBITDA <span class="warn">1.08×</span></span>
+    <span class="tape-sep">·</span>
+    <span class="tape-item">IND AAA RATED <span class="pos">✓</span></span>
+    <span class="tape-sep">·</span>
+    <span class="tape-item">VERDICT <span class="warn">HOLD / ACCUMULATE ON DIPS</span></span>
+    <span class="tape-sep">·</span>
+    <!-- repeat for seamless scroll -->
+    <span class="tape-item">ULTRACEMCO <span class="pos">₹10,737</span></span>
+    <span class="tape-sep">·</span>
+    <span class="tape-item">IV BASE CASE <span class="pos">₹11,842</span></span>
+    <span class="tape-sep">·</span>
+    <span class="tape-item">UPSIDE <span class="pos">+10.3%</span></span>
+    <span class="tape-sep">·</span>
+    <span class="tape-item">WACC <span class="neutral">11.74%</span></span>
+    <span class="tape-sep">·</span>
+    <span class="tape-item">TERMINAL GROWTH <span class="neutral">5.5%</span></span>
+    <span class="tape-sep">·</span>
+    <span class="tape-item">TV WEIGHT <span class="warn">88.2%</span></span>
+    <span class="tape-sep">·</span>
+    <span class="tape-item">ROIC <span class="pos">14.2%</span></span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ MAIN ═══════════════════════════ -->
+<main class="main">
+
+  <!-- ── HERO SECTION ── -->
+  <section class="hero">
+    <div class="hero-meta">
+      <span class="hero-badge">FCFF DCF · DAMODARAN TRADITION · PHASE 2B</span>
+    </div>
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="hero-company">
+          <div class="company-logo">UC</div>
+          <div>
+            <div class="company-name">UltraTech Cement Limited</div>
+            <div class="company-sub">NSE: ULTRACEMCO · Aditya Birla Group · India's Largest Cement Producer</div>
+          </div>
+        </div>
+        <h1 class="hero-headline">
+          From Capital Consumption<br>
+          <span class="headline-accent">to Cash Harvest</span>
+        </h1>
+        <p class="hero-desc">
+          A Damodaran-tradition FCFF valuation of India's largest cement company — post India Cements acquisition.
+          88.2% of enterprise value lives in the terminal period. This is not a short-term trade.
+          It is a long bet on India's construction future, made with clear eyes.
+        </p>
+        <div class="hero-actions">
+          <a href="terminal.html" class="btn-primary">
+            <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm3.293 1.293a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 01-1.414-1.414L7.586 10 5.293 7.707a1 1 0 010-1.414zM11 12a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"/></svg>
+            Open Valuation Terminal
+          </a>
+          <a href="report.pdf" target="_blank" class="btn-secondary">
+            <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" clip-rule="evenodd"/></svg>
+            View Full Report
+          </a>
+        </div>
+        <div class="hero-footnote">MBA (IPM) · T.A. Pai Management Institute, MAHE · Submitted to Dr. Nandan Prabhu · March 2026</div>
+      </div>
+
+      <!-- Verdict Panel -->
+      <div class="hero-right">
+        <div class="verdict-panel">
+          <div class="verdict-header">
+            <span class="verdict-label">VALUATION OUTPUT</span>
+            <span class="verdict-date">MAR 13, 2026</span>
+          </div>
+          <div class="verdict-main">
+            <div class="verdict-tag hold">HOLD / ACCUMULATE ON DIPS</div>
+          </div>
+          <div class="verdict-prices">
+            <div class="vp-row">
+              <div class="vp-item">
+                <div class="vp-lbl">INTRINSIC VALUE</div>
+                <div class="vp-val green">₹11,842</div>
+                <div class="vp-sub">FCFF Base Case</div>
+              </div>
+              <div class="vp-item">
+                <div class="vp-lbl">MARKET PRICE</div>
+                <div class="vp-val">₹10,737</div>
+                <div class="vp-sub">NSE Close</div>
+              </div>
+              <div class="vp-item">
+                <div class="vp-lbl">FCFE CHECK</div>
+                <div class="vp-val amber">₹10,340</div>
+                <div class="vp-sub">Cross-Validation</div>
+              </div>
+            </div>
+          </div>
+          <div class="verdict-upside">
+            <div class="upside-row">
+              <span class="upside-lbl">BASE CASE UPSIDE</span>
+              <span class="upside-val green">+10.3%</span>
+            </div>
+            <div class="upside-bar-bg">
+              <div class="upside-bar-fill" style="width:10.3%"></div>
+            </div>
+          </div>
+          <div class="verdict-range">
+            <div class="range-lbl">MONTE CARLO P10–P90 (5,000 TRIALS)</div>
+            <div class="range-row">
+              <span class="range-lo">₹7,400</span>
+              <div class="range-bar">
+                <div class="range-inner">
+                  <div class="range-marker" style="left:47%"></div>
+                </div>
+              </div>
+              <span class="range-hi">₹16,800</span>
+            </div>
+            <div class="range-note">P(IV &gt; Market) = 54% · Marginal Buy Signal</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── KPI GRID ── -->
+  <section class="kpi-section">
+    <div class="section-header">
+      <span class="sh-line"></span>
+      <span class="sh-label">KEY VALUATION PARAMETERS</span>
+      <span class="sh-line"></span>
+    </div>
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-icon" style="background:rgba(34,197,94,.12); color:#22c55e;">%</div>
+        <div class="kpi-body">
+          <div class="kpi-label">WACC</div>
+          <div class="kpi-value">11.74%</div>
+          <div class="kpi-detail">rf 6.68% · β 0.93 · ERP 4.23%</div>
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-icon" style="background:rgba(59,130,246,.12); color:#3b82f6;">g</div>
+        <div class="kpi-body">
+          <div class="kpi-label">TERMINAL GROWTH</div>
+          <div class="kpi-value">5.5%</div>
+          <div class="kpi-detail">India nominal GDP anchor · Conservative</div>
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-icon" style="background:rgba(245,158,11,.12); color:#f59e0b;">TV</div>
+        <div class="kpi-body">
+          <div class="kpi-label">TERMINAL VALUE WEIGHT</div>
+          <div class="kpi-value">88.2%</div>
+          <div class="kpi-detail">Normal for Mature Growth — demands scrutiny</div>
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-icon" style="background:rgba(168,85,247,.12); color:#a855f7;">R</div>
+        <div class="kpi-body">
+          <div class="kpi-label">ROIC – WACC SPREAD</div>
+          <div class="kpi-value">+2.46%</div>
+          <div class="kpi-detail">14.2% ROIC vs 11.74% WACC · Value creator</div>
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-icon" style="background:rgba(34,197,94,.12); color:#22c55e;">↑</div>
+        <div class="kpi-body">
+          <div class="kpi-label">REVENUE GROWTH (Y1–Y3)</div>
+          <div class="kpi-value">13.0%</div>
+          <div class="kpi-detail">India Cements ramp · Organic + integration lift</div>
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-icon" style="background:rgba(239,68,68,.12); color:#ef4444;">M</div>
+        <div class="kpi-body">
+          <div class="kpi-label">EBIT MARGIN (BASE)</div>
+          <div class="kpi-value">16.5%</div>
+          <div class="kpi-detail">Post-acquisition · Recovering to 17.5% by Y4–5</div>
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-icon" style="background:rgba(59,130,246,.12); color:#3b82f6;">S/K</div>
+        <div class="kpi-body">
+          <div class="kpi-label">SALES-TO-CAPITAL RATIO</div>
+          <div class="kpi-value">1.05×</div>
+          <div class="kpi-detail">Capital-intensive · Nearly every ₹ of revenue = ₹ capex</div>
+        </div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-icon" style="background:rgba(245,158,11,.12); color:#f59e0b;">D</div>
+        <div class="kpi-body">
+          <div class="kpi-label">NET DEBT / EBITDA</div>
+          <div class="kpi-value">1.08×</div>
+          <div class="kpi-detail">Acquisition-elevated · Guided &lt;0.7× by FY27</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CASH FLOW WATERFALL + SENSITIVITY ── -->
+  <section class="analysis-section">
+    <div class="section-header">
+      <span class="sh-line"></span>
+      <span class="sh-label">FREE CASH FLOW FORECAST · REINVESTMENT DYNAMICS</span>
+      <span class="sh-line"></span>
+    </div>
+    <div class="analysis-grid">
+      <!-- FCFF Table -->
+      <div class="analysis-card">
+        <div class="card-title-row">
+          <span class="card-title-txt">PROJECTED FCFF (₹ MILLIONS)</span>
+          <span class="card-title-badge">FY26E – FY30E</span>
+        </div>
+        <div class="fcff-table-wrap">
+          <table class="fcff-table">
+            <thead>
+              <tr>
+                <th>YEAR</th>
+                <th>REVENUE</th>
+                <th>NOPAT</th>
+                <th>REINVESTMENT</th>
+                <th>FCFF</th>
+                <th>RR%</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="yr">FY26E</td>
+                <td>₹8,58,292</td>
+                <td>₹1,05,972</td>
+                <td>₹94,040</td>
+                <td class="fcff-val low">₹2,997</td>
+                <td class="rr high">96.9%</td>
+              </tr>
+              <tr>
+                <td class="yr">FY27E</td>
+                <td>₹9,69,870</td>
+                <td>₹1,19,748</td>
+                <td>₹1,06,265</td>
+                <td class="fcff-val low">₹3,386</td>
+                <td class="rr high">96.9%</td>
+              </tr>
+              <tr>
+                <td class="yr">FY28E</td>
+                <td>₹10,95,953</td>
+                <td>₹1,35,342</td>
+                <td>₹1,20,079</td>
+                <td class="fcff-val low">₹3,826</td>
+                <td class="rr high">96.9%</td>
+              </tr>
+              <tr class="inflection-row">
+                <td class="yr">FY29E</td>
+                <td>₹11,94,589</td>
+                <td>₹1,56,320</td>
+                <td>₹93,939</td>
+                <td class="fcff-val high">₹41,118</td>
+                <td class="rr low">60.1%</td>
+              </tr>
+              <tr class="inflection-row">
+                <td class="yr">FY30E</td>
+                <td>₹13,02,102</td>
+                <td>₹1,70,517</td>
+                <td>₹1,02,394</td>
+                <td class="fcff-val high">₹44,819</td>
+                <td class="rr low">60.0%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table-footnote">
+          The jump from ₹3,826 Mn (Y3) to ₹41,118 Mn (Y4) is not a model quirk — it is what
+          happens when 13% growth slows to 9% while NOPAT keeps compounding. That inflection is the thesis.
+        </div>
+      </div>
+
+      <!-- Valuation Bridge -->
+      <div class="analysis-card">
+        <div class="card-title-row">
+          <span class="card-title-txt">ENTERPRISE VALUE BRIDGE</span>
+          <span class="card-title-badge">₹ MILLIONS</span>
+        </div>
+        <div class="bridge-items">
+          <div class="bridge-row">
+            <span class="br-lbl">PV of Explicit FCFFs (Y1–Y5)</span>
+            <span class="br-val">₹59,428 Mn</span>
+            <div class="br-bar-bg"><div class="br-bar" style="width:12%;background:#3b82f6"></div></div>
+            <span class="br-pct neutral">11.8%</span>
+          </div>
+          <div class="bridge-row">
+            <span class="br-lbl">PV of Terminal Value</span>
+            <span class="br-val">₹4,29,456 Mn</span>
+            <div class="br-bar-bg"><div class="br-bar" style="width:88%;background:#f59e0b"></div></div>
+            <span class="br-pct amber">88.2%</span>
+          </div>
+          <div class="bridge-total">
+            <span>Enterprise Value</span>
+            <span class="br-total-val">₹4,88,884 Mn</span>
+          </div>
+          <div class="bridge-adj">
+            <div class="adj-row">
+              <span>+ Cash &amp; Equivalents</span>
+              <span class="pos">₹78,320 Mn</span>
+            </div>
+            <div class="adj-row">
+              <span>− Net Debt</span>
+              <span class="neg">(₹1,72,951 Mn)</span>
+            </div>
+            <div class="adj-row equity">
+              <span>= Equity Value (294.7 Mn shares)</span>
+              <span class="green-bold">₹3,94,253 Mn → ₹11,842 / share</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-title-row" style="margin-top:14px">
+          <span class="card-title-txt">SCENARIO ANALYSIS</span>
+        </div>
+        <div class="scenario-grid">
+          <div class="sc-item bear">
+            <div class="sc-label">BEAR</div>
+            <div class="sc-iv">₹6,800</div>
+            <div class="sc-delta">−36.7%</div>
+            <div class="sc-params">Rev 7%→5% · EBIT 11.5% · WACC 13.5%</div>
+          </div>
+          <div class="sc-item fund">
+            <div class="sc-label">FUNDAMENTAL</div>
+            <div class="sc-iv">₹8,400</div>
+            <div class="sc-delta">−21.7%</div>
+            <div class="sc-params">ROC×RR growth · WACC 11.74% · g 4.0%</div>
+          </div>
+          <div class="sc-item base">
+            <div class="sc-label">BASE ★</div>
+            <div class="sc-iv">₹11,842</div>
+            <div class="sc-delta">+10.3%</div>
+            <div class="sc-params">13%→9% · EBIT 16.5→17.5% · g 5.5%</div>
+          </div>
+          <div class="sc-item bull">
+            <div class="sc-label">BULL</div>
+            <div class="sc-iv">₹17,200</div>
+            <div class="sc-delta">+60.2%</div>
+            <div class="sc-params">18%→13% · EBIT 20% · WACC 10.8%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── INVESTMENT THESIS ── -->
+  <section class="thesis-section">
+    <div class="section-header">
+      <span class="sh-line"></span>
+      <span class="sh-label">THE INVESTMENT THESIS · IN PLAIN TERMS</span>
+      <span class="sh-line"></span>
+    </div>
+    <div class="thesis-grid">
+      <div class="thesis-card">
+        <div class="thesis-icon pos-icon">◎</div>
+        <div class="thesis-title">THE BULL CASE</div>
+        <ul class="thesis-list">
+          <li>India's per-capita cement consumption at 260 kg vs global average 570 kg — structural demand gap doesn't close at 5%</li>
+          <li>India Cements integration delivers ₹800 Cr guided synergies by FY27 — already tracking ahead on EBITDA/tonne recovery (₹140 YoY improvement)</li>
+          <li>Utilisation ramp from 60% → 80% creates above-fundamental growth without proportionate capex</li>
+          <li>Net Debt/EBITDA collapses from 1.08× to &lt;0.3× by FY28 — enables buybacks and dividend step-up</li>
+          <li>ROIC–WACC spread expected to widen to 4–5% as acquired assets earn through their potential</li>
+        </ul>
+      </div>
+      <div class="thesis-card">
+        <div class="thesis-icon neg-icon">⚠</div>
+        <div class="thesis-title">THE BEAR CASE</div>
+        <ul class="thesis-list">
+          <li>88.2% of EV is terminal value — requires India's construction cycle to remain durable for decades</li>
+          <li>South India pricing rationalisation may take longer than modelled — Adani-backed Ambuja accelerating market share push</li>
+          <li>Cables &amp; wires venture risks misallocating ₹5,000 Cr at sub-WACC returns — high-growth bet inside a Mature Growth company</li>
+          <li>Sustained Indian rate rise + ROIC–WACC spread compression + failed integration = bear scenario ₹6,800–₹7,200</li>
+          <li>Sales-to-Capital ratio of 1.05× means growth is never "free" — a permanent drag on near-term FCF</li>
+        </ul>
+      </div>
+      <div class="thesis-card">
+        <div class="thesis-icon neutral-icon">→</div>
+        <div class="thesis-title">THE STRATEGIC MANDATE</div>
+        <ul class="thesis-list">
+          <li>Deepen South India position through India Cements — accelerate Tier 2/3 distribution, use acquired network as zero-capex upside</li>
+          <li>Hold cables &amp; wires to a verifiable 15%+ ROIC threshold within 4 years before scaling</li>
+          <li>Prioritise deleveraging to 0.6× Net Debt/EBITDA by FY27 before returning excess capital aggressively</li>
+          <li>Accelerate renewable energy to 60% of power mix by FY28 — every 1% energy/revenue reduction = ₹760 Mn EBIT</li>
+          <li>Do not acquire further until India Cements is fully absorbed. Do not mistake Mature Growth for High Growth.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── WACC TABLE ── -->
+  <section class="wacc-section">
+    <div class="section-header">
+      <span class="sh-line"></span>
+      <span class="sh-label">WACC DECOMPOSITION · DAMODARAN CAPM</span>
+      <span class="sh-line"></span>
+    </div>
+    <div class="wacc-grid">
+      <div class="wacc-table-wrap">
+        <table class="wacc-table">
+          <thead>
+            <tr><th>COMPONENT</th><th>VALUE</th><th>SOURCE / NOTES</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Risk-Free Rate (r<sub>f</sub>)</td><td class="wv">6.68%</td><td>RBI 10-Year G-Sec · Mar 13, 2026</td></tr>
+            <tr><td>Unlevered Beta</td><td class="wv">0.82</td><td>Damodaran Jan 2026 · India Cement &amp; Building Materials</td></tr>
+            <tr><td>D/E at Market Values</td><td class="wv">0.24×</td><td>Net Debt ₹1,72,951 Mn / MCap ₹3,16,437 Cr</td></tr>
+            <tr><td>Levered Beta (Hamada)</td><td class="wv">0.93</td><td>0.82 × [1 + (1−0.2517) × 0.24]</td></tr>
+            <tr><td>India ERP</td><td class="wv">4.23%</td><td>Damodaran Jan 2026 implied ERP</td></tr>
+            <tr><td>Country Risk Premium</td><td class="wv">1.55%</td><td>Moody's Baa3 default spread × equity-bond volatility ratio</td></tr>
+            <tr class="ke-row"><td>Cost of Equity (k<sub>e</sub>)</td><td class="wv amber">13.20%</td><td>6.68% + (0.93 × 4.23%) + 1.55%</td></tr>
+            <tr><td>Pre-Tax Cost of Debt</td><td class="wv">8.92%</td><td>Blended rate · IND AAA spread ~2.24% over r<sub>f</sub></td></tr>
+            <tr><td>After-Tax Cost of Debt</td><td class="wv">5.93%</td><td>8.92% × (1 − 0.2517)</td></tr>
+            <tr><td>Equity / Debt Weights</td><td class="wv">80.6% / 19.4%</td><td>Market-value weights · deleveraging → 85/15 by FY27</td></tr>
+            <tr class="wacc-final"><td>WACC</td><td class="wv green-bold">11.74%</td><td>(0.806 × 13.20%) + (0.194 × 5.93%) = 10.64% + 1.15%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="wacc-right">
+        <div class="sensitivity-card">
+          <div class="card-title-row">
+            <span class="card-title-txt">SENSITIVITY: IV / SHARE (₹)</span>
+          </div>
+          <div class="sens-table-wrap">
+            <table class="sens-table">
+              <thead>
+                <tr>
+                  <th class="corner">WACC ↓ / g →</th>
+                  <th>4.5%</th>
+                  <th>5.0%</th>
+                  <th class="base-col">5.5%</th>
+                  <th>6.0%</th>
+                  <th>6.5%</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="wacc-row">10.5%</td>
+                  <td>₹17,000</td><td>₹18,400</td><td class="base-col">₹20,300</td><td>₹22,700</td><td>₹26,100</td>
+                </tr>
+                <tr>
+                  <td class="wacc-row">11.0%</td>
+                  <td>₹14,800</td><td>₹15,900</td><td class="base-col">₹17,200</td><td>₹18,900</td><td>₹21,100</td>
+                </tr>
+                <tr class="base-row">
+                  <td class="wacc-row">11.74%</td>
+                  <td>₹11,650</td><td>₹11,840</td><td class="base-cell">₹11,842</td><td>₹12,800</td><td>₹13,900</td>
+                </tr>
+                <tr>
+                  <td class="wacc-row">12.5%</td>
+                  <td>₹9,800</td><td>₹10,100</td><td class="base-col">₹10,800</td><td>₹11,400</td><td>₹12,200</td>
+                </tr>
+                <tr>
+                  <td class="wacc-row">13.5%</td>
+                  <td>₹7,500</td><td>₹7,800</td><td class="base-col">₹8,200</td><td>₹8,700</td><td>₹9,200</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="table-footnote">Market price ₹10,737 sits at WACC 11.74% / g 5.5% intersection. The market knows this company well.</div>
+        </div>
+        <div class="monte-card">
+          <div class="card-title-row">
+            <span class="card-title-txt">MONTE CARLO SUMMARY (5,000 TRIALS)</span>
+          </div>
+          <div class="mc-stats">
+            <div class="mc-stat"><span class="mc-lbl">P10</span><span class="mc-val neg">₹7,400</span></div>
+            <div class="mc-stat"><span class="mc-lbl">P25</span><span class="mc-val">₹9,100</span></div>
+            <div class="mc-stat"><span class="mc-lbl">MEDIAN</span><span class="mc-val">₹11,680</span></div>
+            <div class="mc-stat"><span class="mc-lbl">MEAN</span><span class="mc-val">₹11,820</span></div>
+            <div class="mc-stat"><span class="mc-lbl">P75</span><span class="mc-val pos">₹14,200</span></div>
+            <div class="mc-stat"><span class="mc-lbl">P90</span><span class="mc-val pos">₹16,800</span></div>
+          </div>
+          <div class="mc-prob">
+            <div class="mcp-row">
+              <span>P(IV &gt; ₹10,737 market)</span>
+              <span class="mcp-val amber">54%</span>
+            </div>
+            <div class="mcp-row">
+              <span>P(downside &gt; 25%)</span>
+              <span class="mcp-val neg">19%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER CTA ── -->
+  <section class="cta-section">
+    <div class="cta-box">
+      <div class="cta-left">
+        <div class="cta-title">Explore the Full Model</div>
+        <div class="cta-sub">Interactive valuation terminal with live sensitivity analysis, scenario toggles, and the complete three-statement model tie-out.</div>
+      </div>
+      <div class="cta-right">
+        <a href="terminal.html" class="btn-primary">
+          <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm3.293 1.293a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 01-1.414-1.414L7.586 10 5.293 7.707a1 1 0 010-1.414zM11 12a1 1 0 100 2h3a1 1 0 100-2h-3z" clip-rule="evenodd"/></svg>
+          Open Terminal
+        </a>
+        <a href="report.pdf" target="_blank" class="btn-secondary">
+          <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" clip-rule="evenodd"/></svg>
+          Download PDF Report
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-left">
+      <span class="footer-name">Rahul R Gowda</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-meta">MBA (IPM) · TAPMI-MAHE · March 2026</span>
+    </div>
+    <div class="footer-center">
+      <span class="footer-disclaimer">This is an intellectual exercise in valuation methodology, not investment advice. The author holds no position in ULTRACEMCO at time of submission.</span>
+    </div>
+    <div class="footer-right">
+      <span class="footer-meta">A Damodaran Tradition · Story Before Statistics</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
